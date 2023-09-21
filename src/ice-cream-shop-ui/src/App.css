@@ -1,0 +1,72 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: tomato;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  background-color: turquoise;
+  color: black;
+  height: 50px;
+  text-align: left;
+}
+
+.container {
+  flex: 1;
+  background-image: url("sweet-ice-cream-background-free-vector.jpg") ;
+  background-size: 400px 400px;
+  background-repeat: repeat; 
+  min-height: 100%;
+  margin-bottom: 100px;
+  clear: both;
+  overflow: auto;
+}
+
+
+/* Homepage css */
+
+.title {
+  text-align: center;
+  color: aliceblue;
+  /* text-shadow:  2px 2px 5px red; */
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  background: gold;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #064579;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: tomato;
+}
+
+.main {
+  margin-left: 140px;
+  font-size: 28px;
+  padding: 0px 10px;
+  background-color: red;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
